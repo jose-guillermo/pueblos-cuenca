@@ -1,0 +1,74 @@
+html,
+body,
+.contenedor,
+.escena {
+    height: 100%;
+}
+
+.contenedor {
+    background-color: #333;
+}
+
+.escena {
+    display: block;
+    position: relative;
+}
+
+#presentacion {
+    display: block;
+}
+
+.contenido {
+    background-color: rgba(3, 3, 3, .3);
+    color: whitesmoke;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: left-right 2s;
+}
+
+#presentacion {
+    background-image: url("imagenes/presentacion.jpg");
+    animation: rotar 2s;
+}
+
+#alarcon {
+    background-image: url("imagenes/alarcon.jpg");
+    animation: top-bottom 2s;
+}
+
+#belmonte {
+    background-image: url("imagenes/belmonte.jpg");
+    animation: top-bottom 2s;
+}
+
+#sisante {
+    background-image: url("imagenes/sisante.jpg");
+    animation: top-bottom 2s;
+}
+
+#sanclemente {
+    background-image: url("imagenes/san-clemente.jpg");
+    animation: top-bottom 2s;
+}
+
+#huete {
+    background-image: url("imagenes/huete.jpg");
+    animation: top-bottom 2s;
+}
+
+#audio {
+    position: fixed;
+    color: greenyellow;
+    font-size: 3em;
+    bottom: 2%;
+    right: 2%;
+    width: 100px;
+    height: 100px;
+}
